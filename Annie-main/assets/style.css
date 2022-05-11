@@ -1,0 +1,57 @@
+ 
+/* reset CSS  */
+
+
+* {
+    margin: 0; /*removes margins */
+    padding: 0; /*removes default paddings */
+    box-sizing: border-box; /*to make sure all elements are the same size*/
+    list-style: none; /*remove list bullets */
+    text-decoration: none; /*remove underlines */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Variables */
+:root {
+    --purple: #5465ff;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15)
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+}
+
+.navigation_items {
+    padding: 0 5px;
+}
+
+.navigation:last-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation_items a {
+    color: red;
+}
+
+.navigation_items a svg {
+    color: var(--purple);
+}
+
+h1, h2, .navigation a{
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
